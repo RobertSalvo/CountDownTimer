@@ -19,5 +19,5 @@ function setTimer(){
 
 setInterval(setTimer, 1000);
 
-export const build = series(scssTask, jsTask);
+exports.build = series(scssTask, jsTask);
  

@@ -19,5 +19,4 @@ function setTimer(){
 
 setInterval(setTimer, 1000);
 
-exports.build = series(scssTask, jsTask);
  

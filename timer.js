@@ -1,7 +1,7 @@
 function setTimer(){
     
     const currentDate = new Date();
-    let targetDate = new Date("2023-09-14T22:35:30").getTime();
+    let targetDate = new Date("2024-02-28T00:00:00").getTime();
 
     if(targetDate > currentDate){
         let countDownDate = targetDate - currentDate;
